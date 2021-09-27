@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url(/IMG/light-website-backgrounds.jpg) ;
+}
+@font-face {
+    font-family: Magiskos_font;
+    src: url(/Font/FONTAI_SRIFTAI.docx);
+}
+
+body {
+    font-family: Magiskos_font;
+    margin-top: 300px;
+}
+
+.KontJuosta {
+    background-color: pink;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.nr {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.nr:hover {
+    color: rgb(133, 10, 10);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.phoneLogo {
+    width: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.topJuosta {
+    background-color: rgba(77, 59, 59, 0.8);
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 150px;
+    margin-top: 28px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-image: linear-gradient( to right, whitesmoke, rgb(226, 149, 162, 0.8));
+}
+
+.logo {
+    width: 160px;
+}
+
+.pasirinkimai {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.nuoroda {
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    padding: 0 20px;
+    text-align: center;
+    text-decoration: none;
+    font: bold 15px/25px Arial, sans-serif;
+    color: rgb(133, 10, 10);
+    background: rgb(231, 130, 130);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, .22);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, .29), inset 1px 1px 1px rgba(255, 255, 255, .44);
+    -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, .29), inset 1px 1px 1px rgba(255, 255, 255, .44);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .29), inset 1px 1px 1px rgba(255, 255, 255, .44);
+    -webkit-transition: all 0.15s ease;
+    -moz-transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+    -ms-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgb(231, 130, 130)), color-stop(100%, rgb(170, 73, 73)));
+    /* Chrome,Safari4+ */
+}
+
+.nuoroda:hover {
+    -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, .29), inset 0px 0px 2px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, .29), inset 0px 0px 2px rgba(0, 0, 0, .5);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .29), inset 0px 0px 2px rgba(0, 0, 0, .5);
+}
+
+.nuoroda:active {
+    -webkit-box-shadow: inset 0px 0px 3px rgba(0, 0, 0, .8);
+    -moz-box-shadow: inset 0px 0px 3px rgba(0, 0, 0, .8);
+    box-shadow: inset 0px 0px 3px rgba(0, 0, 0, .8);
+}
+
+* {
+    box-sizing: border-box
+}
+
+.kategorijos {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.antvirsaus:hover .overlay {
+    opacity: 1;
+}
